@@ -34,7 +34,7 @@
         echo "<li> $kids[0] </li>";
         // Lanjutkan
         echo "</ol>";
-        $panjangadults = count($kids);
+        $panjangadults = count($adults);
         echo "Total Adults: $panjangadults "; // Berapa panjang array adults
         echo "<br>";
         echo "<ol>";
@@ -51,48 +51,6 @@
         echo "<pre>";
         print_r($peserta);
         echo "</pre>";
-
-        $siswa1 = [ "nama" => "abduh",
-            "kelas" => "laravel",
-            "nilai" => 70,
-            ];
-        echo "<pre>";
-print_r($siswa1);
-echo "</pre>";
-
-// Output:
-// Array
-// (
-// [0] => Array
-// (
-// [Name] => Will Byers
-// [Age] => 12
-// [Aliases] => Will the Wise
-// [Status] => Alive
-// )
-// [1] => Array
-// (
-// [Name] => Mike Wheeler
-// [Age] => 12
-// [Aliases] => Dugeon Master
-// [Status] => Alive
-// )
-// [2] => Array
-// (
-// [Name] => Jim Hooper
-// [Age] => 43
-// [Aliases] => Chief Hopper
-// [Status] => Deceased
-// )
-// [3] => Array
-// (
-// [Name] => Eleven
-// [Age] => 12
-// [Aliases] => El
-// [Status] => Alive
-// )
-// )
-// */
 ?>
 </body>
 </html>
